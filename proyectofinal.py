@@ -171,7 +171,7 @@ def main():
             print("1: Quiniela")
             print("2: Quini 6")
             tipo_apuesta = input("Ingresa alguna opcion: ")
-
+            #Nos permite elegir una opcion para ver los numeros ganadores en la quiniela o quini6
             if tipo_apuesta == "1":
                 numeros_ganadores = generar_numeros_ganadores(tipo_apuesta, num_cifras)
                 comprobar_apuesta(numeros_ganadores, tipo_apuesta, num_cifras)
